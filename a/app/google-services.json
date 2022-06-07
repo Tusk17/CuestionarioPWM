@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "326320464203",
+    "project_id": "encuestav1-647b1",
+    "storage_bucket": "encuestav1-647b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326320464203:android:3ad589d19a3b56ca1fc8ce",
+        "android_client_info": {
+          "package_name": "com.example.pwmobile2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326320464203-r1cgh80e9bshjsdcunqgpb17n7mrh4nb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzvMRc8jDL66HplRVF701VImdSkfeFxX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326320464203-r1cgh80e9bshjsdcunqgpb17n7mrh4nb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

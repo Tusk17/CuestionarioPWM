@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".parte2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B700BCD4"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="RECLUTAMIENTO Y SELECCIÓN DE PERSONAL"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿Para su contratación fue más importante ser mujer u hombre que sus habilidades profesionales?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P45s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP1"
+                    android:padding="8dp"
+                    android:text="Si" />
+
+                <RadioButton
+                    android:id="@+id/P45n"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP1"
+                    android:text="No" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿En su centro de trabajo el proceso de contratación favorece más a personas jóvenes?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P2s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP2"
+                    android:padding="8dp"
+                    android:text="Si" />
+
+                <RadioButton
+                    android:id="@+id/P2n"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP2"
+                    android:text="No" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿En el momento de su contratación, su edad fue determinante?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P3s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP3"
+                    android:padding="8dp"
+                    android:text="Si" />
+
+                <RadioButton
+                    android:id="@+id/P3n"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP3"
+                    android:text="No" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿Para su contratación fue determinante su apariencia física?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P4s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP4"
+                    android:padding="8dp"
+                    android:text="Si" />
+
+                <RadioButton
+                    android:id="@+id/P4n"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP4"
+                    android:text="No" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="FORMACIÓN Y CAPACITACIÓN"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿En su centro de trabajo para lograr la contratación, una promoción o un ascenso cuentan más las recomendaciones que los conocimientos y capacidades de la persona?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P5nun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP5"
+                    android:text="Nunca" />
+
+                <RadioButton
+                    android:id="@+id/P5alg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP5"
+                    android:text="Algunas veces" />
+
+                <RadioButton
+                    android:id="@+id/P5con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP5"
+                    android:text="Con frecuencia" />
+
+                <RadioButton
+                    android:id="@+id/P5sie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP5"
+                    android:text="Siempre" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿En su centro de trabajo mujeres y hombres tienen por igual oportunidades de ascenso y capacitación?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P6nun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP6"
+                    android:text="Nunca" />
+
+                <RadioButton
+                    android:id="@+id/P6alg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP6"
+                    android:text="Algunas veces" />
+
+                <RadioButton
+                    android:id="@+id/P6con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP6"
+                    android:text="Con frecuencia" />
+
+                <RadioButton
+                    android:id="@+id/P6sie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP6"
+                    android:text="Siempre" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿En su centro de trabajo se cuenta con programas de capacitación en materia de igualdad laboral y no discriminación?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P7nun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP7"
+                    android:text="Nunca" />
+
+                <RadioButton
+                    android:id="@+id/P7alg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP7"
+                    android:text="Algunas veces" />
+
+                <RadioButton
+                    android:id="@+id/P7con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP7"
+                    android:text="Con frecuencia" />
+
+                <RadioButton
+                    android:id="@+id/P7sie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP7"
+                    android:text="Siempre" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿En los últimos 12 meses usted ha participado en programas de capacitación?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P8nun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP8"
+                    android:text="Nunca" />
+
+                <RadioButton
+                    android:id="@+id/P8alg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP8"
+                    android:text="Algunas veces" />
+
+                <RadioButton
+                    android:id="@+id/P8con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP8"
+                    android:text="Con frecuencia" />
+
+                <RadioButton
+                    android:id="@+id/P8sie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP8"
+                    android:text="Siempre" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="PERMANENCIA Y ASCENSO"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿En su centro de trabajo para lograr la contratación, una promoción o un ascenso cuentan más las recomendaciones que los conocimientos y capacidades de la persona?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P9nun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP9"
+                    android:text="Nunca" />
+
+                <RadioButton
+                    android:id="@+id/P9alg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP9"
+                    android:text="Algunas veces" />
+
+                <RadioButton
+                    android:id="@+id/P9con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP9"
+                    android:text="Con frecuencia" />
+
+                <RadioButton
+                    android:id="@+id/P9sie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP9"
+                    android:text="Siempre" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿En su centro de trabajo se ha despedido a alguna mujer por embarazo u orillado a renunciar al regresar de su licencia de maternidad?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P10nun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP10"
+                    android:text="Nunca" />
+
+                <RadioButton
+                    android:id="@+id/P10alg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP10"
+                    android:text="Algunas veces" />
+
+                <RadioButton
+                    android:id="@+id/P10con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP10"
+                    android:text="Con frecuencia" />
+
+                <RadioButton
+                    android:id="@+id/P10sie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP10"
+                    android:text="Siempre" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿En su centro de trabajo la competencia por mejores puestos, condiciones laborales o salariales son justas?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P11nun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP11"
+                    android:text="Nunca" />
+
+                <RadioButton
+                    android:id="@+id/P11alg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP11"
+                    android:text="Algunas veces" />
+
+                <RadioButton
+                    android:id="@+id/P11con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP11"
+                    android:text="Con frecuencia" />
+
+                <RadioButton
+                    android:id="@+id/P11sie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP11"
+                    android:text="Siempre" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿En su centro de trabajo mujeres y hombres tienen las mismas oportunidades para  ocupar puestos de decisión?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P12nun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP12"
+                    android:text="Nunca" />
+
+                <RadioButton
+                    android:id="@+id/P12alg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP12"
+                    android:text="Algunas veces" />
+
+                <RadioButton
+                    android:id="@+id/P12con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP12"
+                    android:text="Con frecuencia" />
+
+                <RadioButton
+                    android:id="@+id/P12sie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP12"
+                    android:text="Siempre" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿En su centro de trabajo se cuenta con un sistema de evaluación de desempeño del personal?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P13nun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP13"
+                    android:text="Nunca" />
+
+                <RadioButton
+                    android:id="@+id/P13alg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP13"
+                    android:text="Algunas veces" />
+
+                <RadioButton
+                    android:id="@+id/P13con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP13"
+                    android:text="Con frecuencia" />
+
+                <RadioButton
+                    android:id="@+id/P13sie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP13"
+                    android:text="Siempre" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿En los últimos 12 meses le han realizado una evaluación de desempeño?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P14nun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP14"
+                    android:text="Nunca" />
+
+                <RadioButton
+                    android:id="@+id/P14alg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP14"
+                    android:text="Algunas veces" />
+
+                <RadioButton
+                    android:id="@+id/P14con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP14"
+                    android:text="Con frecuencia" />
+
+                <RadioButton
+                    android:id="@+id/P14sie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP14"
+                    android:text="Siempre" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="CORRESPONSABILIDAD EN LA VIDA LABORAL, FAMILIAR Y PERSONAL"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿En su centro de trabajo tanto mujeres como hombres tienen las mismas facilidades para atender problemas familiares no previstos?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P15nun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP15"
+                    android:text="Nunca" />
+
+                <RadioButton
+                    android:id="@+id/P15alg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP15"
+                    android:text="Algunas veces" />
+
+                <RadioButton
+                    android:id="@+id/P15con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP15"
+                    android:text="Con frecuencia" />
+
+                <RadioButton
+                    android:id="@+id/P15sie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP15"
+                    android:text="Siempre" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿En su centro de trabajo las mujeres embarazadas enfrentan un clima laboral hostil?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P16nun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP16"
+                    android:text="Nunca" />
+
+                <RadioButton
+                    android:id="@+id/P16alg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP16"
+                    android:text="Algunas veces" />
+
+                <RadioButton
+                    android:id="@+id/P16con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP16"
+                    android:text="Con frecuencia" />
+
+                <RadioButton
+                    android:id="@+id/P16sie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP16"
+                    android:text="Siempre" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿En su centro de trabajo las personas que se hacen cargo de personas o familiares que requieren cuidados enfrentan un clima laboral hostil?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P17nun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP17"
+                    android:text="Nunca" />
+
+                <RadioButton
+                    android:id="@+id/P17alg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP17"
+                    android:text="Algunas veces" />
+
+                <RadioButton
+                    android:id="@+id/P17con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP17"
+                    android:text="Con frecuencia" />
+
+                <RadioButton
+                    android:id="@+id/P17sie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP17"
+                    android:text="Siempre" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿En su centro de trabajo los hombres cuentan con licencia de paternidad por nacimiento o adopción de una hija(o)?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P18nun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP18"
+                    android:text="Nunca" />
+
+                <RadioButton
+                    android:id="@+id/P18alg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP18"
+                    android:text="Algunas veces" />
+
+                <RadioButton
+                    android:id="@+id/P18con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP18"
+                    android:text="Con frecuencia" />
+
+                <RadioButton
+                    android:id="@+id/P18sie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP18"
+                    android:text="Siempre" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿En su centro de trabajo la licencia de paternidad se otorga por más de cinco días?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P19nun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP19"
+                    android:text="Nunca" />
+
+                <RadioButton
+                    android:id="@+id/P19alg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP19"
+                    android:text="Algunas veces" />
+
+                <RadioButton
+                    android:id="@+id/P19con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP19"
+                    android:text="Con frecuencia" />
+
+                <RadioButton
+                    android:id="@+id/P19sie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP19"
+                    android:text="Siempre" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿En su centro de trabajo se otorgan permisos para atender situaciones familiares como cuidado de hijas e hijos, personas enfermas o personas adultas mayores?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P20nun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP20"
+                    android:text="Nunca" />
+
+                <RadioButton
+                    android:id="@+id/P20alg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP20"
+                    android:text="Algunas veces" />
+
+                <RadioButton
+                    android:id="@+id/P20con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP20"
+                    android:text="Con frecuencia" />
+
+                <RadioButton
+                    android:id="@+id/P20sie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP20"
+                    android:text="Siempre" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿En su centro de trabajo existen convenios con prestadores de servicios que contemplen beneficios para el personal tales como: lavanderías, comedores, planchadurías, transporte, entre otros?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P21nun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP21"
+                    android:text="Nunca" />
+
+                <RadioButton
+                    android:id="@+id/P21alg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP21"
+                    android:text="Algunas veces" />
+
+                <RadioButton
+                    android:id="@+id/P21con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP21"
+                    android:text="Con frecuencia" />
+
+                <RadioButton
+                    android:id="@+id/P21sie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP21"
+                    android:text="Siempre" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="En su centro de trabajo, si usted decidiera usar las opciones de trabajo flexibles ¿se cuestionaría su compromiso ante su trabajo?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P22nun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP22"
+                    android:text="Nunca" />
+
+                <RadioButton
+                    android:id="@+id/P22alg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP22"
+                    android:text="Algunas veces" />
+
+                <RadioButton
+                    android:id="@+id/P22con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP22"
+                    android:text="Con frecuencia" />
+
+                <RadioButton
+                    android:id="@+id/P22sie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP22"
+                    android:text="Siempre" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="¿En su centro de trabajo usted puede acercarse a su jefe(a) inmediato(a) para hablar sobre cuestiones relacionadas con horarios que le estén afectando?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/P23nun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP23"
+                    android:text="Nunca" />
+
+                <RadioButton
+                    android:id="@+id/P23alg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP23"
+                    android:text="Algunas veces" />
+
+                <RadioButton
+                    android:id="@+id/P23con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP23"
+                    android:text="Con frecuencia" />
+
+                <RadioButton
+                    android:id="@+id/P23sie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ObtP23"
+                    android:text="Siempre" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="toP3"
+                android:text="Siguiente" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

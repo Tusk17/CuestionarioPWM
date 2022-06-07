@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/PWmobile2/app/src/main/res/layout/activity_main.xml" value="0.1921875" />
+        <entry key="..\:/AndroidStudioProjects/PWmobile2/app/src/main/res/layout/activity_parte2.xml" value="0.1921875" />
+        <entry key="..\:/AndroidStudioProjects/PWmobile2/app/src/main/res/layout/activity_parte3.xml" value="0.1921875" />
+        <entry key="..\:/AndroidStudioProjects/PWmobile2/app/src/main/res/layout/activity_parte4.xml" value="0.1921875" />
+        <entry key="..\:/AndroidStudioProjects/PWmobile2/app/src/main/res/layout/activity_parte5.xml" value="0.1921875" />
+        <entry key="..\:/AndroidStudioProjects/PWmobile22/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/PWmobile22/app/src/main/res/layout/activity_parte1.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/PWmobile22/app/src/main/res/layout/activity_parte2.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/PWmobile22/app/src/main/res/layout/activity_parte3.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/PWmobile22/app/src/main/res/layout/activity_parte4.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/PWmobile22/app/src/main/res/layout/activity_parte5.xml" value="0.1921875" />
+        <entry key="..\:/AndroidStudioProjects/PWmobile22/app/src/main/res/layout/activity_parte6.xml" value="0.1921875" />
+        <entry key="..\:/Users/Sadrik/Downloads/8 Semestre/PW/PWmobile22/app/src/main/res/layout/activity_parte1.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Sadrik/Downloads/8 Semestre/PW/PWmobile22/app/src/main/res/layout/activity_parte2.xml" value="0.264" />
+        <entry key="..\:/Users/Sadrik/Downloads/8 Semestre/PW/PWmobile22/app/src/main/res/layout/activity_parte3.xml" value="0.4" />
+        <entry key="..\:/Users/Sadrik/Downloads/8 Semestre/PW/PWmobile22/app/src/main/res/layout/activity_parte4.xml" value="0.4" />
+        <entry key="..\:/Users/Sadrik/Downloads/8 Semestre/PW/PWmobile22/app/src/main/res/layout/activity_parte5.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
